@@ -6,7 +6,7 @@ import numpy as np
 
 app = FastAPI()
 model = pickle.load(
-    open("/Users/pavanmantha/Pavans/Workshops/GPR_Workshop/RegressionAnalysis/KNeighborsClassifier.pkl", "rb"))
+    open("/Users/pavanmantha/Pavans/Workshops/GPR_Workshop/ClassificationAnalysis/KNeighborsClassifier.pkl", "rb"))
 
 
 @app.post("/predict")
